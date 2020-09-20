@@ -1,0 +1,385 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+
+.container{
+padding-left: 2rem;
+}
+.navbar{
+    position: sticky;
+    display: flex;
+    padding-left: 1rem;
+    height: 56px;
+    border-bottom: 1px solid #707070 ;
+}
+#XYZ{
+    text-align: left;
+    font: normal normal normal 32px/37px Chiller;
+    letter-spacing: 0px;
+    color: #111111;
+    opacity: 1;
+    }
+#icon{
+    float: left;
+}
+.body{
+    display: flex;
+}
+.checkout{
+    display: flex;
+    flex-direction: column;
+    width: 792px;
+height: 560px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 6px 12px #0000000D;
+border: 0.5px solid #E4E4E4;
+opacity: 1;
+    
+}
+.street{
+    width: 744px;
+    height: 48px;
+    border: 1px solid #E4E4E4;
+    opacity: 1;
+    margin-top: 4px;
+    padding: 1rem;
+    margin-bottom: 4px;
+}
+.daddress{
+    
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 360px);
+    grid-gap: 1rem;
+    
+}
+.daddress h2{
+    text-align: left;
+font: normal normal bold 20px/65px Segoe UI;
+letter-spacing: 0px;
+color: #111111;
+opacity: 1;
+}
+.box{
+    width: 360px;
+height: 48px;
+border: 1px solid #E4E4E4;
+opacity: 1;
+}
+.longbox{
+    width: 744px;
+    height: 48px;
+    border: 1px solid #E4E4E4;
+    opacity: 1;
+}
+#phnnum{
+    margin-left: 24rem;
+}
+.save{
+    position: relative;
+    top: 0rem;
+    left: 21rem;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    margin-left: 4rem;
+    width: 184px;
+height: 48px;
+background: #111111 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.save a{
+    text-align: center;
+    font: normal normal normal 16px/21px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-decoration: none;
+}
+#doption{
+    margin-bottom: 3rem;
+    margin-right: 15rem;
+    margin-top: 2rem;
+    width: 792px;
+height: 296px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 6px 12px #0000000D;
+border: 0.5px solid #E4E4E4;
+opacity: 1;
+}
+#doption p{
+    font: normal normal normal 20px/27px Segoe UI;
+letter-spacing: 0px;
+color: #111111;
+opacity: 1;
+}
+#doption h2{
+    margin-top: 0.5rem;
+    border-bottom: 1px solid rgb(194, 192, 192);
+    padding: 0.3rem 1rem 0.1rem 1rem;
+}
+#options{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-left: 0.5rem;
+}
+.door{
+    margin-bottom: 1rem;
+}
+.pick p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.bold, .five{
+    
+    font: normal normal 600 20px/27px Segoe UI;
+letter-spacing: 0px;
+color: #111111;
+opacity: 1;
+}
+.color{
+    color: rgb(182, 179, 179);
+    font: normal normal normal 20px/27px Segoe UI;
+letter-spacing: 0px;
+color: #757575;
+opacity: 1;
+}
+
+#payment{
+    margin-bottom: 1rem;
+    margin-right: 15rem;
+    width: 792px;
+height: 600px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 6px 12px #0000000F;
+border: 0.5px solid #E4E4E4;
+opacity: 1;
+    
+}
+ol{
+    list-style-type: none;
+}
+#payment h1{
+    border-bottom: 1px solid rgb(194, 192, 192);
+    padding: 1rem 1rem 0.2rem 1rem;
+    text-align: left;
+font: normal normal bold 20px/27px Segoe UI;
+letter-spacing: 0px;
+color: #111111;
+opacity: 1;
+}
+#payment h1 span{
+    margin-left: 20rem;
+}
+#how{
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.how{
+    text-align: left;
+font: normal normal 600 20px/27px Segoe UI;
+letter-spacing: 0px;
+color: #111111;
+opacity: 1;
+}
+#how li{
+    text-align: left;
+font: normal normal 600 20px/27px Segoe UI;
+letter-spacing: 0px;
+color: #111111;
+opacity: 1;
+}
+ol li{
+    margin-top: 1rem;
+}
+.pay{
+    padding-left: 2rem;
+    
+    text-align: left;
+font: normal normal normal 16px/21px Segoe UI;
+letter-spacing: 0px;
+color: #757575;
+opacity: 1;
+}
+#i3{
+    position: relative;
+    bottom: 2.5rem;
+}
+
+.one{
+    margin-left: 20rem;
+}
+.two{
+    margin-left: 16.1rem;
+
+}
+.three{
+    margin-left: 21.5rem;
+}
+.sub {
+    margin-bottom: 0.5rem;
+    text-align: left;
+font: normal normal normal 20px/27px Segoe UI;
+letter-spacing: 0px;
+color: #111111;
+opacity: 1
+}
+.total{
+    text-align: left;
+    font: normal normal bold 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #111111;
+    opacity: 1;
+}
+#sub{
+    border-bottom: 1px solid rgb(194, 192, 192);
+    padding-bottom: 0.5rem;
+
+}
+.cards{
+    align-self: center;
+    margin-left: 7rem;
+}
+#place{
+    margin-top: 1rem;
+    margin-right: 15rem;
+    text-align: center;
+    padding: 1rem ;
+    margin-bottom: 2rem;
+    width: 792px;
+height: 168px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 6px 12px #0000000D;
+border: 0.5px solid #EFEFEF;
+opacity: 1;
+}
+#order{
+    text-decoration: none;
+    background-color: black;
+    padding: 0.5rem 11rem;
+    margin-bottom: 3rem;
+    text-align: center;
+font: normal normal 600 16px/21px Segoe UI;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+#by{
+    margin-top: 1rem;
+    text-align: center;
+font: normal normal normal 14px/19px Segoe UI;
+letter-spacing: 0px;
+color: #757575;
+opacity: 1;
+}
+.ordersummary{
+    width: 520px;
+height: 966px;
+opacity: 1;
+}
+#cart{
+    border: 1px solid rgb(194, 192, 192);
+    margin-top: 2rem;
+}
+#in{
+    padding: 1rem 1rem 0.2rem 1rem ;
+    border-bottom: 1px solid rgb(194, 192, 192);
+    margin-bottom: 1rem;
+    text-align: left;
+font: normal normal bold 20px/100px Segoe UI;
+letter-spacing: 0px;
+color: #111111;
+opacity: 1
+}
+#your{
+    padding-left: 1rem;
+}
+#n1{
+    margin-left: 11rem;
+
+}
+#n2{
+    margin-left: 7.2rem;
+}
+#n3{
+    margin-left: 12.4rem;
+}
+.total{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(194, 192, 192);
+}
+.total div{
+    margin-bottom: 0.1rem;
+}
+#details{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 2rem;
+}
+#details div{
+    margin-bottom: 0.5rem;
+}
+.grey{
+    color: rgb(182, 179, 179);
+}
+#mod{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+}
+#cart{
+    border: 1px solid rgb(194, 192, 192);
+    margin-top: 2rem;
+}
+#in{
+    padding: 1rem 1rem 0.2rem 1rem ;
+    border-bottom: 1px solid rgb(194, 192, 192);
+    margin-bottom: 1rem;
+}
+#your{
+    padding-left: 1rem;
+}
+#n1{
+    margin-left: 11rem;
+
+}
+#n2{
+    margin-left: 7.2rem;
+}
+#n3{
+    margin-left: 12.4rem;
+}
+.total{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(194, 192, 192);
+}
+.total div{
+    margin-bottom: 0.1rem;
+}
+#details{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 2rem;
+}
+#details div{
+    margin-bottom: 0.5rem;
+}
+.grey{
+    color: rgb(182, 179, 179);
+}
+#mod{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin-top: 1rem;
+    font-weight: bold;
+}
